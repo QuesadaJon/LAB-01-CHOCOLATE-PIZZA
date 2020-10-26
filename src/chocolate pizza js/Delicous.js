@@ -4,7 +4,7 @@ export default class Delicous extends Component {
     render() {
         return (
             <div>
-                <img className='logo' src="./assets/logo.png" alt='logo'/>
+                <img className='logo' src="./assets/logo.png" alt='logo' />
                 <h2>
                     Delicious
                 </h2>
