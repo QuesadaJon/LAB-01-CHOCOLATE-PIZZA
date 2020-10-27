@@ -1,10 +1,12 @@
 import './App.css';
 import React, { Component } from 'react'
-import Header from './chocolate pizza js/Header'
-import ImgSection from './chocolate pizza js/ImgSection';
-import RecipeInstructions from './chocolate pizza js/RecipeInstructions';
-import Ingredients from './chocolate pizza js/Ingredients';
-import AboutAuthor from './chocolate pizza js/AboutAuthor';
+import Header from './chocolate-pizza-js/Header'
+import ImgSection from './chocolate-pizza-js/ImgSection';
+import RecipeInstructions from './chocolate-pizza-js/RecipeInstructions';
+import Ingredients from './chocolate-pizza-js/Ingredients';
+import AboutAuthor from './chocolate-pizza-js/AboutAuthor';
+import Footer from './chocolate-pizza-js/Footer'
+
 
 export default class App extends Component {
   render() {
@@ -15,6 +17,7 @@ export default class App extends Component {
         <RecipeInstructions />
         <Ingredients />
         <AboutAuthor />
+        <Footer/>
       </div>
     )
   }
