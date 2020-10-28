@@ -1,22 +1,22 @@
-export const Recipe = [
-    { 
-        name: 'milk', 
+export const data = [
+    {
+        name: 'milk',
         amount: '1 1/2 cup'
     },
     {
         name: 'mascarpone',
         amount: '1/2 cup'
-     },
-     {
-         name: 'pink salt',
-         amount: '1/2 tsp'
-     },
-     {
-        name:  'Black Mission Figs',
+    },
+    {
+        name: 'pink salt',
+        amount: '1/2 tsp'
+    },
+    {
+        name: 'Black Mission Figs',
         amount: '1 lb'
     },
     {
-        name:'brown sugar',
+        name: 'brown sugar',
         amount: '1/2 cup'
     },
     {
@@ -36,7 +36,7 @@ export const Recipe = [
         amount: '2'
     },
     {
-        name:'lemon, juiced',
+        name: 'lemon, juiced',
         amount: '1'
     },
     {

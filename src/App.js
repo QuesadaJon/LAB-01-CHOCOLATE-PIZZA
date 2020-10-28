@@ -17,7 +17,7 @@ export default class App extends Component {
         <RecipeInstructions />
         <Ingredients />
         <AboutAuthor />
-        <Footer/>
+        <Footer />
       </div>
     )
   }
