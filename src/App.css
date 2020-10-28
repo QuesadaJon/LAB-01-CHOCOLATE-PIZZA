@@ -1,5 +1,56 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  position: relative;
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+}
+
+.header {
+  position: relative;
+ display: flex;
+ flex-direction: row;
+ width: 100%;
+ justify-content: space-between;
+}
+.header-left {
+  display: flex;
+}
+
+.header-logo {
+ 
+}
+
+.header-right{
+  display: flex;
+}
+
+.icons-one{
+  display: flexbox;
+}
+
 .list-background {
-  padding-top: 20px;
-  padding-bottom: 20px;
   background-image: url("./list-bg.png");
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  
+}
+.article-a {
+  text-indent:40px;
+}
+.article-b {
+  text-indent:40px;
+}
+.article-c {
+  text-indent:40px;
 }

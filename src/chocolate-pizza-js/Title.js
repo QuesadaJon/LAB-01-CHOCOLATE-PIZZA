@@ -5,12 +5,16 @@ export default class Title extends Component {
         return (
             <div>
                 <div>
-                    Chocolate Pizza
+                    <div className="title">
+                        Chocolate Pizza
+                    </div>
+                    <div className="sub-title">
+                        POSTED ON 15 DEC 2013/DESSERTS
+                    </div>
                 </div>
-                <div>
-                    POSTED ON 15 DEC 2013/DESSERTS
+                <div className="print-icon">
+                    <img src="/assets/print-icon.png" alt='print'/>
                 </div>
-                <img src="/assets/print-icon.png" alt='print'/>
             </div>
         )
     }

@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import Delicious from './Delicous'
-import Buttons from './Buttons'
+import Buttons from './ButtonList'
 
 export default class Header extends Component {
     render() {
         return (
-            <div>
+            <div className="header">
                 <Delicious/>
                 <Buttons/>
             </div>

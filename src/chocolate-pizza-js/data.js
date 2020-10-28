@@ -1,4 +1,4 @@
-let ingredients = [
+export const Recipe = [
     { 
         name: 'milk', 
         amount: '1 1/2 cup'
@@ -46,6 +46,4 @@ let ingredients = [
     {
         name: 'honey roasted pecans, roughly chopped',
         amount: '1 cup'
-    }];
-
-export default ingredients;
+    }]

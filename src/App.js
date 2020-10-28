@@ -11,7 +11,7 @@ import Footer from './chocolate-pizza-js/Footer'
 export default class App extends Component {
   render() {
     return (
-      <div>
+      <div className="main">
         <Header />
         <ImgSection />
         <RecipeInstructions />
@@ -22,4 +22,3 @@ export default class App extends Component {
     )
   }
 }
-
